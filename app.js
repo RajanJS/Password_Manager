@@ -59,7 +59,7 @@ function getAccounts(masterPassword){
 	var accounts = [];
 	if(typeof encryptedAccount !== 'undefined'){
 		var bytes = crypto.AES.decrypt(encryptedAccount,masterPassword); //decrypt
-		var accounts = JSON.parse(bytes.toString(crypto.enc.Utf8));; 
+		var accounts = JSON.parse(bytes.toString(crypto.enc.Utf8));
 	}	
 	return accounts;
 }
@@ -100,7 +100,7 @@ if(command === 'create'){
 		console.log('Account Created !');
 		console.log(createAccount);
 	}catch(e){
-		console.log('Unable to create account.')
+		console.log('Unable to create account.'+e)
 	}
 	
 }else if(command==='get'){
