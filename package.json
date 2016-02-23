@@ -1,0 +1,24 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajanJS/Password_Manager.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "passwordmanager"
+  ],
+  "author": "Rajan Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajanJS/Password_Manager/issues"
+  },
+  "homepage": "https://github.com/RajanJS/Password_Manager#readme"
+}
